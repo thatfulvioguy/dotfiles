@@ -1,0 +1,9 @@
+[user]
+	email = 2515227+thatfulvioguy@users.noreply.github.com
+	name = Fulvio Valente
+[alias]
+	st = status
+	co = checkout
+	sw = switch
+[init]
+	defaultBranch = main
