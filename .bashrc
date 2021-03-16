@@ -117,3 +117,5 @@ if ! shopt -oq posix; then
 fi
 
 [ -s "/home/fulvio/.jabba/jabba.sh" ] && source "/home/fulvio/.jabba/jabba.sh"
+
+[ -s "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
