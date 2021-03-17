@@ -4,3 +4,5 @@ oh-my-fish/theme-bobthefish
 FabioAntunes/fish-nvm
 edc/bass
 PatrickF1/fzf.fish
+lgathy/google-cloud-sdk-fish-completion
+evanlucas/fish-kubectl-completions
