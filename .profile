@@ -28,4 +28,4 @@ fi
 
 [ -s "$HOME/.jabba/jabba.sh" ] && source "$HOME/.jabba/jabba.sh"
 
-[ -s "$HOME/.cargo/env" ] source "$HOME/.cargo/env"
+[ -s "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
