@@ -10,5 +10,19 @@
 [init]
 	defaultBranch = main
 
+[diff]
+    colorMoved = default
+
+[core]
+    pager = delta
+
+[delta]
+	line-numbers = true
+
+	# TODO this doesn't seem to do anything for git diff at least?
+	#hunk-header-file-style = blue box
+
+	hunk-header-decoration-style = blue ul
+
 [fetch]
 	prune = true
