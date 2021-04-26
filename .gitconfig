@@ -24,5 +24,8 @@
 
 	hunk-header-decoration-style = blue ul
 
+[merge]
+	tool = meld
+
 [fetch]
 	prune = true
