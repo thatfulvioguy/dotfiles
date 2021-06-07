@@ -1,31 +1,37 @@
 [user]
-	email = 2515227+thatfulvioguy@users.noreply.github.com
-	name = Fulvio Valente
+    email = 2515227+thatfulvioguy@users.noreply.github.com
+    name = Fulvio Valente
 
 [alias]
-	st = status
-	co = checkout
-	sw = switch
+    st = status
+    co = checkout
+    sw = switch
 
 [init]
-	defaultBranch = main
+    defaultBranch = main
 
 [diff]
     colorMoved = default
 
-[core]
-    pager = delta
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[interactive]
+    diffFilter = delta --color-only
 
 [delta]
-	line-numbers = true
+    line-numbers = true
 
-	# TODO this doesn't seem to do anything for git diff at least?
-	#hunk-header-file-style = blue box
+    # TODO this doesn't seem to do anything for git diff at least?
+    #hunk-header-file-style = blue box
 
-	hunk-header-decoration-style = blue ul
+    hunk-header-decoration-style = blue ul
 
 [merge]
-	tool = meld
+    tool = meld
 
 [fetch]
-	prune = true
+    prune = true
