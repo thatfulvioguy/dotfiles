@@ -1,4 +1,3 @@
-
 # bobthefish settings
 
 set -g theme_display_date no
@@ -15,5 +14,3 @@ set -g theme_display_k8s_namespace yes
 if [ "$TERM" = 'linux' ]
     set -g theme_powerline_fonts no
 end
-
-export EDITOR=nano
